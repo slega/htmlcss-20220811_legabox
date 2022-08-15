@@ -1,0 +1,55 @@
+.header {
+    background-color: #EB3223;
+}
+
+.header__title {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.header_nav {
+    background-color: #F29D38;
+    text-align:center;
+    padding: 5px;
+}
+
+.header__nav__item {
+    color: white;
+}
+
+.main {
+    background-color: #489E4E;
+    padding: 5px;
+}
+
+.main__article {
+    margin: 5px;
+    padding: 5px;
+    background-color: #002FF5;
+}
+
+.main__article__title {
+    text-align: left;
+    color: white;
+}
+
+.main__article__content {
+    text-align: left;
+    color: white;
+}
+
+.main__article__content__item {
+    text-align: left;
+    color: white;
+}
+
+.footer {
+    background-color: #AC35F6;
+}
+
+.footer__title {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
