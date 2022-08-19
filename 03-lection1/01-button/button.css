@@ -1,9 +1,16 @@
 /* Стилизация кнопки */
 .button {
-    width: 189px;
-    height: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--white);
     border-radius: 8px;
     border: none;
+    /* paddings */
+    padding: 15px 66px;
 }
 /* Default states */
 .button-primary {
@@ -17,6 +24,7 @@
 .button-alternate {
     background-color: var(--white);
     border: 1px solid var(--grey-3);
+    color: var(--black);
 }
 
 /* Hover states */
@@ -46,25 +54,5 @@
 .button-alternate_disabled {
     background-color: var(--white);
     border: 1px solid var(--grey-3);
-}
-
-.button__label {
-    font-family: 'Roboto';
-    font-size: 16px;
-    alignment: center;
-    color: var(--white);
-}
-
-.button-alternate__label {
-    font-family: 'Roboto';
-    font-size: 16px;
-    alignment: center;
-    color: var(--black);
-}
-
-.button-alternate__label_disabled {
-    font-family: 'Roboto';
-    font-size: 16px;
-    alignment: center;
     color: var(--grey-3);
 }
