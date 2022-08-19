@@ -12,47 +12,36 @@
     /* paddings */
     padding: 15px 66px;
 }
+
+.button:disabled {
+    opacity: 50%;
+    pointer-events: none
+}
+
 /* Default states */
-.button-primary {
+.button_primary {
     background-color: var(--primary);
 }
 
-.button-secondary {
+.button_secondary {
     background-color: var(--secondary);
 }
 
-.button-alternate {
+.button_alternate {
     background-color: var(--white);
     border: 1px solid var(--grey-3);
     color: var(--black);
 }
 
 /* Hover states */
-.button-primary:hover {
+.button_primary:hover {
     background-color: var(--primary-hover);
 }
 
-.button-secondary:hover {
+.button_secondary:hover {
     background-color: var(--secondary-hover);
 }
 
-.button-alternate:hover {
+.button_alternate:hover {
     border: 1px solid var(--black);
-}
-
-/* Disabled states */
-.button-primary_disabled {
-    background-color: var(--primary);
-    opacity: 50%;
-}
-
-.button-secondary_disabled {
-    background-color: var(--secondary);
-    opacity: 50%;
-}
-
-.button-alternate_disabled {
-    background-color: var(--white);
-    border: 1px solid var(--grey-3);
-    color: var(--grey-3);
 }
