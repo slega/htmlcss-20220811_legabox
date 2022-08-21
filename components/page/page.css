@@ -1,0 +1,8 @@
+.page {
+    background-color: var(--grey-5);
+}
+
+.page__content {
+    width: 1440px;
+    height: 1036px;
+}
