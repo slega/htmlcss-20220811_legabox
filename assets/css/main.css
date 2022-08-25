@@ -26,7 +26,3 @@
     --secondary: var(--purple-1);
     --secondary-hover: var(--purple-2);
 }
-
-* {
-    font-family: 'Roboto', sans-serif;
-}
