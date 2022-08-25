@@ -9,7 +9,7 @@
     padding-top: 24px;
     padding-left: 32px;
     padding-rigth: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 24px;
     /* margin */
     margin-bottom: 8px;
     /* text styling */
@@ -21,6 +21,10 @@
     font-style: normal;
     line-height: 24px;
     color: var(--black);
+}
+
+.accordion__item[open] {
+    padding-bottom: 32px;
 }
 
 .accordion__item:last-child {
